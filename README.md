@@ -1,14 +1,5 @@
 # Codebook
 
----
-title: "Codebook"
-author: "Dmitry Rychkov"
-date: "07/26/2015"
-output:
-  html_document:
-    keep_md: yes
----
-
 ## Project Description
 This is a codebook for the course project "Getting and Cleaning Data"
 
@@ -29,8 +20,8 @@ The link to the data: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfil
 8. combine train and test datasets into one
 9. name features for the result from the list of step 4
 10. remove dublicates in features
-11. remove "()" in the names
-12. remane numbers in "Activity" by activity names from the list of step 5
+11. filter features only with mean() and std(). Features with meanFreq() were removed because they weighted averages of the frequency components. We are interested only in unweighted means. Features angle() that contained mean/std values in arguments were also removed. They do not represent a mean/std value of a measurement. 
+12. rename numbers in "Activity" by activity names from the list of step 5
 13. label the data set with descriptive variable names:
 -mean -> Mean, 
 -std -> Std, 
