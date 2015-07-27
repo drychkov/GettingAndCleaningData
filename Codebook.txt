@@ -1,0 +1,64 @@
+The script is using the following files: 
+======================================== 
+
+- 'features_info.txt': Shows information about the variables used on the feature vector.
+
+- 'features.txt': List of all features.
+
+- 'activity_labels.txt': Links the class labels with their activity name.
+
+- 'train/X_train.txt': Training set.
+
+- 'train/y_train.txt': Training labels.
+
+- 'test/X_test.txt': Test set.
+
+- 'test/y_test.txt': Test labels.
+
+- 'train/subject_train.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
+
+- 'test/subject_train.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
+
+
+Feature descriptions:
+=====================
+
+The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals (timeAcc-XYZ and timeGyro-XYZ). The acceleration signal was then separated into body and gravity acceleration signals (BodyAcc and GravityAcc). Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (AccJerk and GyroJerk). Also the magnitude of these three-dimensional signals were calculated (AccMagnitude, JerkMagnitude, GyroMagnitude). A Fast Fourier Transform (FFT) was applied to some of these signals producing (freq).
+
+These signals were used to estimate variables of the feature vector for each pattern:  
+'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+
+The body accelerometer and gyroscope 3-axial raw signals:
+timeBodyAcc-XYZ
+timeBodyGyro-XYZ
+
+The gravity accelerometer and gyroscope 3-axial raw signals:
+timeGravityAcc-XYZ
+
+The body linear acceleration and angular velocity signals:
+timeBodyAccJerk-XYZ
+timeBodyGyroJerk-XYZ
+
+The magnitude of these three-dimensional signals:
+timeBodyAccMagnitude
+timeGravityAccMagnitude
+timeBodyAccJerkMagnitude
+timeBodyGyroMagnitude
+timeBodyGyroJerkMagnitude
+
+Fast Fourier Transformed features:
+freqBodyAcc-XYZ
+freqBodyAccJerk-XYZ
+freqBodyGyro-XYZ
+freqBodyAccMagnitude
+freqBodyAccJerkMagnitude
+freqBodyGyroMagnitude
+freqBodyGyroJerkMagnitude
+
+
+Mean: Mean value
+Std: Standard deviation
+
+SubjectId: a person’s id that participated in the experiment. The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years.
+
+Activity: one of six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
