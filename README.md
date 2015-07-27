@@ -35,8 +35,7 @@ f -> freq
 
 
 ##Description of the variables in the summaryData.txt file
-The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals timeAcc-XYZ and timeGyro-XYZ. The acceleration signal was then separated into body and gravity acceleration signals (BodyAcc and GravityAcc). Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals. Also the magnitude of these three-dimensional signals were calculated. A Fast Fourier Transform (FFT) was applied to some of these signals producing (freq).
+The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals (timeAcc-XYZ and timeGyro-XYZ). The acceleration signal was then separated into body and gravity acceleration signals (BodyAcc and GravityAcc). Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (AccJerk and GyroJerk). Also the magnitude of these three-dimensional signals were calculated (AccMagnitude, JerkMagnitude, GyroMagnitude). A Fast Fourier Transform (FFT) was applied to some of these signals producing (freq).
 
 Mean: Mean value,
-
 Std: Standard deviation
