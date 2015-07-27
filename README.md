@@ -1,4 +1,4 @@
-# Codebook
+# Readme
 
 ## Project Description
 This is a codebook for the course project "Getting and Cleaning Data"
@@ -8,6 +8,8 @@ The data was downloaded from http://archive.ics.uci.edu/ml/datasets/Human+Activi
 The link to the data: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
 
 ##Creating the tidy datafile
+
+Required R packages: data.table, dplyr
 
 ###Guide to create the tidy data file
 1. download the data
